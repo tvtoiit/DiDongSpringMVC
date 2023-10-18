@@ -1,0 +1,15 @@
+<decorators defaultdir="/WEB-INF/views/layouts">
+	<decorator name="user" page="user.jsp">
+		<pattern>/trang-chu/*</pattern>
+		<pattern>/*</pattern>
+	</decorator>
+	
+	<decorator name="authen" page="">
+		<pattern>/authen/*</pattern>
+	</decorator>
+	
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/admin/*</pattern>
+	</decorator>
+
+</decorators>
